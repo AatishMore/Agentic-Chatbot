@@ -42,3 +42,6 @@ Upload PDFs for internal document search.
 Ask questions via chat input.
 The bot will dynamically decide whether to use RAG, web search, or direct LLM generation.
 Chat history and tool usage will be displayed in the UI.
+
+Notes:
+Both FastAPI and Streamlit must run simultaneously for the app to work.

@@ -19,7 +19,10 @@ This project is a dynamic chatbot application built using **LangGraph**, **FastA
 
 ---
 
-## **Project Structure**
+# Project Structure
+
+`
+
 chatbot_class_object/
 │
 ├─ fastapi_app.py # FastAPI backend endpoints
@@ -27,11 +30,11 @@ chatbot_class_object/
 ├─ agent.py # LangGraph agent logic
 ├─ tools/
 │ ├─ rag_tool.py # RAG pipeline & PDF indexing
-│
+│ ├─ web_search_tool.py # Web search tool
 ├─ temp_docs/ # Temporary uploaded PDFs
 ├─ requirements.txt # Python dependencies
 
-
+`
 1] Create a virtual environment and install dependencies
 2] Run FastAPI backend
 3] Run Streamlit frontend

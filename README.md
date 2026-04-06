@@ -19,7 +19,7 @@ This project is a dynamic chatbot application built using LangGraph, FastAPI, an
 
 
 
-Project Structure:
+# Project Structure
 
 chatbot_class_object/
 │
@@ -43,5 +43,5 @@ Ask questions via chat input.
 The bot will dynamically decide whether to use RAG, web search, or direct LLM generation.
 Chat history and tool usage will be displayed in the UI.
 
-Notes:
+Note:
 Both FastAPI and Streamlit must run simultaneously for the app to work.

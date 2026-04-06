@@ -1,15 +1,15 @@
- 🤖 LangGraph Agentic Chatbot
+ # 🤖 LangGraph Agentic Chatbot
 
-This project is a dynamic chatbot application built using LangGraph, FastAPI, and Streamlit. It supports:
+This project is a dynamic chatbot application built using **LangGraph**, **FastAPI**, and **Streamlit**. It supports:
 
-- RAG (Retrieval-Augmented Generation) from PDFs
-- Web search fallback for external queries
+- **RAG (Retrieval-Augmented Generation)** from PDFs
+- **Web search** fallback for external queries
 - Chat history and context handling
 - Dynamic tool selection using LLM reasoning
 
+---
 
-
- Features:
+## **Features**
 
 1. Upload PDFs for document-based Q&A.
 2. Intelligent chat powered by LangGraph agent and LLMs.
@@ -17,10 +17,9 @@ This project is a dynamic chatbot application built using LangGraph, FastAPI, an
 4. Clean, interactive frontend built with Streamlit.
 5. Object-oriented design for maintainability.
 
+---
 
-
-# Project Structure
-
+## **Project Structure**
 chatbot_class_object/
 │
 ├─ fastapi_app.py # FastAPI backend endpoints
@@ -31,6 +30,7 @@ chatbot_class_object/
 │
 ├─ temp_docs/ # Temporary uploaded PDFs
 ├─ requirements.txt # Python dependencies
+
 
 1] Create a virtual environment and install dependencies
 2] Run FastAPI backend

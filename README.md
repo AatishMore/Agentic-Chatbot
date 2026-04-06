@@ -21,7 +21,7 @@ This project is a dynamic chatbot application built using **LangGraph**, **FastA
 
 # Project Structure
 
-`
+
 
 chatbot_class_object/
 │
@@ -34,7 +34,7 @@ chatbot_class_object/
 ├─ temp_docs/ # Temporary uploaded PDFs
 ├─ requirements.txt # Python dependencies
 
-`
+
 1] Create a virtual environment and install dependencies
 2] Run FastAPI backend
 3] Run Streamlit frontend
